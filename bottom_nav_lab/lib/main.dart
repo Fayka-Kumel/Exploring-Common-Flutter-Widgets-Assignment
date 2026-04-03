@@ -62,8 +62,7 @@ class HomeScreen extends StatelessWidget {
     return Center(
       child: ElevatedButton(
         onPressed: () {
-          Navigator.push(context, MaterialPageRoute(builder: (context) => const DetailsScreen()))
-        }, child: const Text('Go to Details')),
+          Navigator.push(context, MaterialPageRoute(builder: (context) => const DetailsScreen()));        }, child: const Text('Go to Details')),
     );
   }
 }
